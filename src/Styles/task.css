@@ -1,0 +1,145 @@
+.plus{
+    margin-top: -10px;
+}
+
+.pick h3{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61.6px;
+    color:  #292929;
+}
+
+.tasks h4{
+    color: #974FD0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.57px;
+
+}
+
+.urgent{
+    border: 0.5px solid #B8B6B6;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.tech .edit:nth-child(1){
+    background-color:  #974FD0;
+    width: 110px;
+    height: 50px;
+    padding: 10px 10px 10px 50px;
+    color: #FAF9FB;
+    font-size: 20px;
+    line-height: 29.57px;
+    background-image: url('../assets/clarity_note-edit-line.svg');
+    background-repeat: no-repeat;
+    background-position: 20% 48%;
+    font-weight: 500;
+    border-radius: 8px;
+
+}
+
+.Edit{
+    color: #FAF9FB;
+}
+
+.tech .result:nth-child(2){
+    border: 1px solid #974FD0;
+    width: 120px;
+    height: 50px;
+    padding: 10px 25px 10px 50px;
+    color: #974FD0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.57px;
+    background-image: url('../assets/fluent_delete-24-regular.svg');
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    border-radius: 8px;
+}
+
+.tip p{
+    color: #F38383;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.57px;
+}
+
+.fin h4 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.12px;
+    color: #292929;
+}
+
+.fin p{
+    font-size: 24px;
+    font-weight: 400;
+    color:#737171;
+    
+}
+
+.tips p {
+    color:  #73C3A6;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.57px;
+}
+
+h6{
+    font-size: 26px;
+    color: #974FD0;
+    font-weight: 400;
+    line-height: 32.03px;
+}
+
+
+@media(max-width:767px){
+    .pick h3{
+        font-size: 30px;
+
+    }
+
+    .tech .edit:nth-child(1){
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        padding: 10px 10px 10px 40px;
+        
+    }
+
+    .tech .result:nth-child(2){
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
+
+    
+    .urgent{
+        width: 100%;
+    }
+
+    .tip p{
+        font-size: 15px;
+    }
+
+    .tips p{
+        font-size: 14px;
+    }
+
+    .fin h4{
+        font-size: 25px;
+
+    }
+
+    .fin p {
+        font-size: 15px;
+    }
+
+    h6{
+        font-size: 18px;
+    }
+
+
+}

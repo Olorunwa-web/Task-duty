@@ -1,0 +1,31 @@
+h2{
+    font-size: 27.37px;
+    font-weight: 600;
+    color: #2D0050;
+    line-height: 33.71px;
+    margin-top: 8px;
+}
+
+.per-img{
+    width: 60px;
+}
+
+
+.duty {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27.1px;
+    color:#292929;
+    text-decoration: none;
+}
+
+
+.menu-img{
+    width: 120%;
+    height: 3rem;
+}
+
+hr{
+    margin-top: -7px;
+}
+
